@@ -109,7 +109,7 @@ export default function Contact() {
                 <p className="text-sm text-olive-deep/70">Customer Support:</p>
                 <p className="text-olive-dark font-medium underline underline-offset-4">+1 (555) 123-4567</p>
                 <p className="text-sm text-olive-deep/70 pt-2">WhatsApp Direct:</p>
-                <a href={`https://wa.me/${import.meta.env.VITE_WHATSAPP_NUMBER || '918075775586'}`} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-olive-dark font-medium hover:text-green-600 transition-colors">
+                <a href={`https://wa.me/${import.meta.env.VITE_WHATSAPP_NUMBER || '+971522437123'}`} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-olive-dark font-medium hover:text-green-600 transition-colors">
                   <MessageCircle className="w-4 h-4" /> Message Us Now
                 </a>
               </div>

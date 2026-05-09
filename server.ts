@@ -160,7 +160,7 @@ async function startServer() {
       
       const message = `Hello Zyvelle Souk Concierge,\n\nI would like to place an order for:\n${orderSummary}\n\nTotal: ${total.toFixed(2)}\n\nPlease provide details.`;
       
-      const whatsappNumber = process.env.VITE_WHATSAPP_NUMBER || "918075775586";
+      const whatsappNumber = process.env.VITE_WHATSAPP_NUMBER || "+971522437123";
       const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
       
       res.json({ whatsappUrl });

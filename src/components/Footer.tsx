@@ -76,7 +76,7 @@ export default function Footer() {
                 <Facebook className="w-4 h-4" />
               </a>
               <a 
-                href={`https://wa.me/${import.meta.env.VITE_WHATSAPP_NUMBER || '918075775586'}`} 
+                href={`https://wa.me/${import.meta.env.VITE_WHATSAPP_NUMBER || '+971522437123'}`} 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="p-2 bg-olive-deep/5 rounded-full hover:bg-gold-muted hover:text-white transition-all duration-300"

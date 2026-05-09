@@ -27,7 +27,7 @@ export default function Navbar() {
   const isHome = location.pathname === '/';
   const displayWhite = isHome && !isScrolled;
 
-  const whatsappNumber = import.meta.env.VITE_WHATSAPP_NUMBER || '918075775586';
+  const whatsappNumber = import.meta.env.VITE_WHATSAPP_NUMBER || '+971522437123';
 
   const navLinks = [
     { name: 'Shop', path: '/collections' },

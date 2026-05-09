@@ -420,7 +420,7 @@ export default function Home() {
             "We are here to help you find the piece that whispers your name."
           </p>
           <a
-            href={`https://wa.me/${import.meta.env.VITE_WHATSAPP_NUMBER || '918075775586'}`}
+            href={`https://wa.me/${import.meta.env.VITE_WHATSAPP_NUMBER || '+971522437123'}`}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-3 text-[10px] uppercase tracking-[0.3em] font-bold text-olive-dark hover:text-gold-muted transition-colors group px-8 py-4 border border-olive-dark/20 hover:border-gold-muted"
